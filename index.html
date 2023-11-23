@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/solid.min.css" rel="stylesheet">
+    <script src="weather.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="emsg">
+
+        </div>
+
+        <div class="head">
+            <h1><i class="fa fa-cloud-sun"></i></h1>
+        </div>
+
+        <div class="search">
+            <input type="text" class="sbar" placeholder="Search City / Country" spellcheck="false">
+            <button class="sbutton"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="result">
+            <h1><span class="celsius">23</span><sup> o</sup>C</h1>
+            <h3 class="city">London</h3>
+            <div class="other">
+                <div class="hp"><i class="fa fa-tint"></i><span class="tint">14</span> %<p>Humidity</p></div>
+                <div class="ws"><i class="fa fa-wind"></i><span class="wind">28</span> km/h<p>Wind speed</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
